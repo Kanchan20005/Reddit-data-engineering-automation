@@ -12,3 +12,7 @@ I wanted to automate the task of looking for diferent top posts from different s
 
 ## Output: 
 It dumps the CSV file everyday to the S3 bucket at a scheduled time and the csv file in future will be converted or used to build a better GUI friendly frontend.
+
+## To Reuse this Repo:
+* Reddit-key-pair.pem is empty right now. You have to create a key-pair to replace this file. I removed the value in this file for security reasons
+* For API access, you have to get API access Key and Secrets, I have replaced my values with ######### in this case. You can get your API access information and replace the ########
