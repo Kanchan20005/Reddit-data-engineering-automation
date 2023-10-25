@@ -1,8 +1,8 @@
 import requests
 import pandas as pd
 
-CLIENT_ID = 'wtcXqm9N8mVHgxCeDbxK7w'
-SECRET_KEY = 'qnW3r58PNQrhkq2Doou_asUWA0ps4Q'
+CLIENT_ID = '################'
+SECRET_KEY = '##########################'
 
 auth = requests.auth.HTTPBasicAuth(CLIENT_ID,SECRET_KEY)
 
